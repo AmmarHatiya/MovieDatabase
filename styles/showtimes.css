@@ -1,0 +1,12 @@
+input
+{
+
+    height:fit-content;
+    width:400px;
+    font-size:12pt;
+    text-align: center;
+    margin: auto;
+}
+#movie_info{
+    text-align: center;    
+}
