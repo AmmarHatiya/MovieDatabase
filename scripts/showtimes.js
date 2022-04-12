@@ -7,6 +7,7 @@ window.onload = function () {
         .then((out) => {
             console.log("URL is: ", url);
             console.log('JSON:', out);
+            $("#poster").attr("src",out['Poster']);
             $('#title').val(out["Title"])
             $('#year').val(out["Year"])
             $('#genre').val(out["Genre"])
